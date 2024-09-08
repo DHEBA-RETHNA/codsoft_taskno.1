@@ -66,7 +66,7 @@ public class Number_Game {
             Scanner scan = new Scanner(System.in);
             System.out.println("Do you want to continue the game?(Yes/No)");
             String conti = scan.nextLine();
-            if(conti.equals("Yes")){
+            if(conti.equalsIgnoreCase("Yes")){
                 System.out.println("Enjoy the game.");
                 continue;
             }else{
